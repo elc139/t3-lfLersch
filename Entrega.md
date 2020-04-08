@@ -1,12 +1,14 @@
 ## Luiz Felipe Lehmen Lersch
 ## elc139-Programação Paralela
+[OpenMPDemoABC.cpp](OpenMPDemoABC.cpp)<br>
+[OpenMPDemoABCsemOrdered.cpp](OpenMPDemoABCsemOrdered.cpp)
 
 ## runtime
 Uma opção está com a variável de ambiente OMP_SCHEDULE e a outra opção está com a função omp_set_schedule. No programa
 a função fillArrayConcurrently() atualiza a variável.
 
 ## ordered
-O  construtor  ordered  permite  que  um  laço  seja  executado  na  ordem  seqüencial.
+O  construtor  ordered  permite  que  um  laço  seja  executado  na  ordem  seqüencial. Foram feitos 2 trabalhos um com Ordered e um sem.
 
 ## static
 Por padrão, o OpenMP atribui estaticamente iterações de loop às threads.<br>
